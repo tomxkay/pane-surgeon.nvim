@@ -22,3 +22,12 @@ Add the following to your `lazy.nvim` configuration:
   end,
 }
 ```
+
+| Command                       | Description                                               |
+| ----------------------------- | --------------------------------------------------------- |
+| `:PaneSurgeonCloseLeft`       | Closes all windows to the **left** of the active window.  |
+| `:PaneSurgeonCloseRight`      | Closes all windows to the **right** of the active window. |
+| `:PaneSurgeonCloseTop`        | Closes all windows **above** the active window.           |
+| `:PaneSurgeonCloseBottom`     | Closes all windows **below** the active window.           |
+| `:PaneSurgeonSelect`          | Toggles the **selection state** of the current window.    |
+| `:PaneSurgeonCloseUnselected` | Closes all windows **except** the selected ones.          |
